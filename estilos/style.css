@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-image:url("../img/background-3.jpg");
+    background-attachment: fixed;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+@media(max-width:768px){
+    .ul-bg{
+    background-color: rgb(41, 43, 44);
+    }
+}
+
+@media(max-width:768px){
+    .running{
+        color: white;
+    }
+}
+
+
+
